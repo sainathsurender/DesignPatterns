@@ -13,3 +13,5 @@ public sealed class Singleton
         Console.WriteLine("Singleton instance method called.");
     }
 }
+
+Singleton.Instance.DisplayMessage();
